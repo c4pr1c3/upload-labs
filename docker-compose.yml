@@ -1,0 +1,7 @@
+version: '3'
+services:
+  upload-labs:
+    container_name: "upload-labs"
+    build: docker/
+    ports:
+      - "9080:80"
